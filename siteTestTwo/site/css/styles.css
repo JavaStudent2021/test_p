@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*========WRAPPER============================================= */
+.wrapper {
+    outline: 1px solid black;
+    width: 1440px;
+}
+
+
+/*=====MENU================================================ */
+.container {
+    /*outline: 1px solid black;*/
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.menu {
+    display: flex;
+    height: 100px;
+
+}
+
+.menu .menu-left {
+    padding: 7px;
+    margin-left: 0;
+
+
+}
+
+.menu .menu-left img {
+    text-align: left;
+    width: 100px;
+    height: auto;
+}
+
+.menu-center {
+    display: flex;
+
+}
+
+.menu-center {
+    display: flex;
+    width: 600px;
+}
+
+.menu-center a {
+    /* outline: 1px solid black;*/
+    padding: 35px 0px;
+width: 100%;
+    font-size: 14px;
+    text-align: center;
+    font-family: Inter, serif;
+    text-transform: uppercase;
+    justify-content: center;
+
+}
+
+.menu-center a:hover {
+    cursor: pointer;
+    background: lavender;
+}
+
+.menu-right {
+    margin-right: 0;
+    display: flex;
+    padding: 15px;
+}
+
+.menu-right-telephone {
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu-right img {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 5px;
+
+
+}
+
+/*===================================================== */
+
+.aboutPresentation {
+}
+
+.aboutPresentationFoto img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.domains {
+    justify-content: center;
+    display: flex;
+    width: 846px;
+    padding: 25px 0;
+}
+
+.domain-1 {
+    width: 95px;
+    height: 148px;
+}
+
+.domain-1 img {
+    display: block;
+    width: 60px;
+    height: 80px;
+}
+
+.domain-1 p {
+    text-align: center;
+}
+
+
+/*====OUR SERVICE================================================= */
+.our-service {
+    display: flex;
+    background: #F0F5F9;
+}
+
+.our-service-left {
+    display: inline-block;
+    width: 49%;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+.our-service-left h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.our-service-right {
+    display: inline-block;
+    width: 49%;
+}
+
+.component-service{
+    width: 580px;
+    height: 394px;
+}
+.component-service-h3 {
+    display: flex;
+    width: 580px;
+    height: 24px;
+}
+
+.component-service-logo {
+    display: inline-block;
+    width: 30px;
+
+
+}
+
+.component-service-h3 h3 {
+}
+
+.component-service-jpg{
+    max-width: 100%;
+    height: auto;
+}
+
+/*===================================================== */
+
+
+/*===================================================== */
+
+
+/*===================================================== */
+
+
+/*===================================================== */
